@@ -1,0 +1,6 @@
+time:
+    date: '2017-06-12'
+
+Router:
+    type: 1
+    dir: '/CRMVC'   # 项目目录，如果定义了域名站点则为空
