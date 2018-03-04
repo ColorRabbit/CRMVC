@@ -1,9 +1,3 @@
-### CRMVC
-
-[TOC]
-
-> 自己编写的MVC
-
 #### 目录结构
 ```
 ├── application
@@ -28,7 +22,8 @@
 │   │   ├── Controller.php
 │   │   └── Model.php
 │   ├── libs                # 添加类库的地方
-│   │   ├── Curl.php
+│   │   ├── HandleError.php
+│   │   ├── MyError.php
 │   │   ├── MysqliDb.php
 │   │   ├── Router.php
 │   │   └── WorkShop.php
@@ -86,11 +81,7 @@ location /CRMVC/ {
 }
 ```
 
-#### composer使用几个组件
-```
-symfony/var-dump
-symfony/yaml
-twig/twig
+[mysql文件来自](https://github.com/joshcam/PHP-MySQLi-Database-Class/blob/master/readme.md)
 
-```
-[mysql一个文件](https://github.com/joshcam/PHP-MySQLi-Database-Class/blob/master/readme.md)
+
+16年中旬写的，17年有重新翻了下，最近重写整理下提交。随缘更新优化
