@@ -81,6 +81,14 @@ location /CRMVC/ {
 }
 ```
 
+```
+composer install symfony/http-foundation
+composer install symfony/var-dumper
+composer install symfony/yaml
+composer install twig/twig
+composer install color-rabbit/color-gallery
+```
+
 [mysql文件来自](https://github.com/joshcam/PHP-MySQLi-Database-Class/blob/master/readme.md)
 
 

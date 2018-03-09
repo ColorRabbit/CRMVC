@@ -1,3 +1,4 @@
 cache/*
 config/parameters.yml
 vendor/*
+composer.lock

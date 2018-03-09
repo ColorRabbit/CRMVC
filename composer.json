@@ -5,12 +5,6 @@
     ]
   },
   "require": {
-    "php": ">=7.0",
-    "symfony/http-foundation": "dev-master",
-    "symfony/var-dumper": "dev-master",
-    "symfony/yaml": "dev-master",
-    "twig/twig": "dev-master",
-    "color-rabbit/color-gallery": "dev-master"
   },
   "config": {
 
