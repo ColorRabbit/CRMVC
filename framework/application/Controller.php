@@ -48,12 +48,12 @@ class Controller
         // $viewFile = $this->getViewFile($template);
 
         // Twig_Autoloader::register();
-        $loader = new Twig_Loader_Filesystem(APP_PATH . '/View');
-        $twig = new Twig_Environment($loader, array(
+        $loader = new Twig\Loader\FilesystemLoader(APP_PATH . '/View');
+        $twig = new Twig\Environment($loader, array(
             'cache' => PATH . '/cache',
             'debug' => PHP_DEBUG,
         ));
-        $templates = $twig->loadTemplate($controller . '/' . $template);
+        $templates = $twig->load($controller . '/' . $template);
         $templates->display($array);
     }
 
